@@ -1,0 +1,56 @@
+.appbar {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo {
+  border-radius: 50%;
+  background-image: linear-gradient(#338af3 50%, #ffda44 50%);
+  width: 28px;
+  height: 28px;
+}
+.logoLink {
+  height: 48px;
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
+  align-items: center;
+}
+.navigation {
+  margin-left: 390px;
+  display: flex;
+  gap: 28px;
+  font-weight: 400;
+}
+.navLink {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.authBlock {
+  margin-left: 268px;
+  display: flex;
+  gap: 14px;
+}
+.loginButton {
+  font-family: inherit;
+  display: flex;
+  background: none;
+  border: none;
+  font-weight: 700;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+.loginIcon {
+  width: 20px;
+  height: 20px;
+}
+.registrationButton {
+  height: 48px;
+  border-radius: 12px;
+  background-color: #121417;
+  padding: 14px 40px;
+  font-weight: 700;
+  color: #fff;
+}
