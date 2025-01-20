@@ -1,6 +1,7 @@
 import { Suspense, ReactNode } from "react";
 import Navigation from "../Navigation/Navigation";
 import css from "./Layout.module.css";
+
 interface LayoutProps {
   children: ReactNode;
 }

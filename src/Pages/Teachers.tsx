@@ -1,4 +1,4 @@
-import TeachersComponent from "../Components/TeachersComponent";
+import TeachersComponent from "../Components/TeachersComponent/TeachersComponent";
 
 const Teachers = () => {
   return <TeachersComponent />;

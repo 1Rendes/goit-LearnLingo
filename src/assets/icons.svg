@@ -1,5 +1,28 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-gas" viewBox="0 0 32 32">
+  <path d="M8 25.333h5.333M24 25.345v-0.012M2.667 8c0-4.413 0.92-5.333 5.333-5.333h16c4.413 0 5.333 0.92 5.333 5.333v16c0 4.413-0.92 5.333-5.333 5.333h-16c-4.413 0-5.333-0.92-5.333-5.333v-16z" 
+        stroke="black" 
+        fill="none" 
+        stroke-width="2.4" 
+        stroke-linejoin="round" 
+        stroke-linecap="round">
+  </path>
+  <path d="M16 18.667c2.945 0 5.333-2.388 5.333-5.333s-2.388-5.333-5.333-5.333c-2.946 0-5.333 2.388-5.333 5.333s2.388 5.333 5.333 5.333z" 
+        stroke="black" 
+        fill="none" 
+        stroke-width="2.4" 
+        stroke-linejoin="round" 
+        stroke-linecap="round">
+  </path>
+  <path d="M20.667 13.333h2M16 18v2M11.333 13.333h-2M16 8.667v-2" 
+        stroke="black" 
+        fill="none" 
+        stroke-width="2.4" 
+        stroke-linejoin="round" 
+        stroke-linecap="round">
+  </path>
+</symbol>
 <symbol id="icon-close" viewBox="0 0 24 24">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.875" d="M18 6l-12 12"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.875" d="M6 6l12 12"></path>

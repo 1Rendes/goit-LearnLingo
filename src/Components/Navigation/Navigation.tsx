@@ -1,8 +1,17 @@
 import { Link, NavLink } from "react-router";
 import css from "./Navigation.module.css";
 import icons from "../../assets/icons.svg";
+import LoginModal from "../LoginModal/LoginModal";
+import { useState } from "react";
 
 const Navigation = () => {
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
+  function handleLoginModalClose() {
+    setIsLoginModalOpen(false);
+  }
+  function handleLoginModalOpen() {
+    setIsLoginModalOpen(true);
+  }
   return (
     <div className={css.appbar}>
       <Link to="/" className={css.logoLink}>
@@ -18,7 +27,12 @@ const Navigation = () => {
         </NavLink>
       </nav>
       <div className={css.authBlock}>
-        <button className={css.loginButton}>
+        <button
+          className={css.loginButton}
+          onClick={() => {
+            handleLoginModalOpen();
+          }}
+        >
           <svg className={css.loginIcon}>
             <use href={`${icons}#icon-login`}></use>
           </svg>
@@ -26,6 +40,10 @@ const Navigation = () => {
         </button>
         <button className={css.registrationButton}>Registration</button>
       </div>
+      <LoginModal
+        isOpen={isLoginModalOpen}
+        handleClose={handleLoginModalClose}
+      />
     </div>
   );
 };
